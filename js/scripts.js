@@ -1,6 +1,10 @@
 //Bussiness Logic
+function PizzaChoose() {
+  this.totalPrice = []
+}
 
-
+PizzaChoose.prototype.thePrice = function (id)
+  for (let i=0; )
 
 //UI Logic
 $(document).ready(function() {

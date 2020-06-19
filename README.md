@@ -1,5 +1,5 @@
 
-# _{Application Name}_
+# Pizza Company
 
 #### _{Brief description of application}, {Date of current version}_
 
