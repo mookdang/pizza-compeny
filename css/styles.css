@@ -1,5 +1,5 @@
 body {
-  background: url('../img/pizaa.jpg');
+  background: url('../img/pizza1.jpg');
   background-size: cover;
 }
 
@@ -7,8 +7,17 @@ h1 {
   font-size: 100px;
   text-align: center;
   font-family: 'MuseoModerno', cursive;
-
+  color: red;
 }
+p {
+  font-size: 25px;
+  text-align: center;
+}
+
+ol {
+  font-size: 20px;
+}
+
 /*#work-responses {
   display: none;
 }
