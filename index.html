@@ -12,35 +12,17 @@
 </head>
 <body>
   <div class="container">
-    <h1>Pizza Around You</h1>
-    <p>Welcome to your local Pizza Around You! <br>
-    <ol> Let's get your order start: <br>
-      <li>Choose your Size <br> Small - Feed 1-2 person, Middle - Feed 2-4 person Large - Feed 4-6 person XLarge - Feed 8-10 <br></li> 
-      <li>Choose your Topping</li>
-      <li>Wait for me to bake your pizza and pay!</li>
-      <li>Take your pizza and see you next time!</li>
-    </ol></p>
-
-    <form id="pizzaChoose">
-      <h3>Choose Size</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="theSize" value="Small" checked>
-          Small
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-        <input type="radio" name="theSize" value="Middle">
-          Middle 
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="theSize" value="Large">
-          Large 
-        </label>
-      </div>
+    <div>
+      <h1>Pizza Around You</h1>
+      <p>Welcome to your local Pizza Around You! <br><hr>
+      <ol> Let's get your order start: <br>
+        <li>Choose your Size <br> Small - Feed 1-2 person, Middle - Feed 2-4 person Large - Feed 4-6 person XLarge - Feed 8-10 <br></li> 
+        <li>Choose your Topping</li>
+        <li>Wait for me to bake your pizza and pay!</li>
+        <li>Take your pizza and see you next time!</li>
+      </ol></p>
+    </div>
+  <form id="pizzaChoose">
       <div class="form-group">
         <h3>Choose Your Topping</h3>
         <input type="checkbox" name="theTopping" value="Pepperoni">Pepperoni<br>
@@ -50,12 +32,9 @@
         <input type="checkbox" name="theTopping" value="Ham">Ham<br>
         <input type="checkbox" name="theTopping" value="Mushroom">Mushroom<br>
       </div>
-
       <button type="submit" class="btn">Add</button>
     </form>
-    <span id="orderComfirm">
-      <p><b>This is your order:</b></p>
-    </span>
+    
   </div>
 </body>
 </html>
