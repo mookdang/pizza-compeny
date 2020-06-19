@@ -1,10 +1,15 @@
 //Bussiness Logic
 function PizzaChoose() {
   this.totalPrice = []
+  
 }
 
-PizzaChoose.prototype.thePrice = function (id)
-  for (let i=0; )
+PizzaChoose.prototype.addPrice(theSize, theTopping) {
+  this.totalPrice.push()
+  return theSize + theTopping;
+}
+
+
 
 //UI Logic
 $(document).ready(function() {
@@ -22,3 +27,4 @@ $(document).ready(function() {
     $('#pizzaChoose').hide();
   });
 });
+
